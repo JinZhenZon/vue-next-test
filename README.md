@@ -1,5 +1,5 @@
 # vue-next-test
-
+## vue3 beta了，持续对其语法熟悉中。。
 ## Project setup
 ```
 npm install
