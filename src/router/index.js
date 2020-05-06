@@ -23,7 +23,17 @@ const routes = [
   {
     path: '/modelTest',
     name: 'modelTest',
-    component: () => import(/* webpackChunkName: "test" */ '../views/modelTest')
+    component: () => import(/* webpackChunkName: "modelTest" */ '../views/modelTest')
+  },
+  {
+    path: '/cycle',
+    name: 'cycle',
+    component: () => import(/* webpackChunkName: "cycle" */ '../views/cycle')
+  },
+  {
+    path: '/computWatch',
+    name: 'computWatch',
+    component: () => import(/* webpackChunkName: "computWatch" */ '../views/computWatch')
   }
 ]
 

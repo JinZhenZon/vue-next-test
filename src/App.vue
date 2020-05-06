@@ -4,7 +4,9 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/test">Test</router-link> | 
-      <router-link to="/modelTest">modelTest</router-link>
+      <router-link to="/modelTest">双向数据绑定</router-link>|
+      <router-link to="/cycle">生命周期使用</router-link>|
+      <router-link to="/computWatch">计算属性和watch</router-link>
     </div>
     <router-view/>
   </div>
