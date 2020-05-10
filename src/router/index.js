@@ -34,6 +34,11 @@ const routes = [
     path: '/computWatch',
     name: 'computWatch',
     component: () => import(/* webpackChunkName: "computWatch" */ '../views/computWatch')
+  },
+  {
+    path: '/ordinary',
+    name: 'ordinary',
+    component: () => import(/* webpackChunkName: "ordinary" */ '../views/ordinary')
   }
 ]
 

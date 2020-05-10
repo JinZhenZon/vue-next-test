@@ -7,6 +7,7 @@
       <router-link to="/modelTest">双向数据绑定</router-link>|
       <router-link to="/cycle">生命周期使用</router-link>|
       <router-link to="/computWatch">计算属性和watch</router-link>
+      <router-link to="/ordinary">其余基础属性和api使用</router-link>
     </div>
     <router-view/>
   </div>
