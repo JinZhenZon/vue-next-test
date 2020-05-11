@@ -39,7 +39,18 @@ const routes = [
     path: '/ordinary',
     name: 'ordinary',
     component: () => import(/* webpackChunkName: "ordinary" */ '../views/ordinary')
+  },
+  {
+    path: '/advanced',
+    name: 'advanced',
+    component: () => import(/* webpackChunkName: "advanced" */ '../views/advanced')
+  },
+  {
+    path: '/dobounce',
+    name: 'dobounce',
+    component: () => import(/* webpackChunkName: "dobounce" */ '../views/dobounce')
   }
+  
 ]
 
 const router = createRouter({
